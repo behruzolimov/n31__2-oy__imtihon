@@ -1,0 +1,44 @@
+@import url(../css/header.css);
+@import url(../css/features.css);
+@import url(../css/section.css);
+@import url(../css/companypages.css);
+@import url(../css/pricing.css);
+@import url(../css/page.css);
+@import url(../css/wrapper.css);
+@import url(../css/contact.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(../roboto/Roboto-Regular.ttf);
+}
+
+:root {
+    --bg-color-1: #ADC9A6;
+    --bg-color-2: #153C3C;
+    --color-1: #DDE4E4;
+    --bg-color-3: #FFF;
+    --background-1: #84A17D;
+    --background-2: #F3F7F2;
+    --color-2: #172426;
+    --background-3: #F2F8F8;
+    --box-shadow-00-10-3: 0px 0px 10px 3px #02ff30;
+    --bg-color-4: rgb(2, 255, 2);
+    --color-3: #F4F5F6;
+    --color-4: #6C8989;
+
+}
+
+.main {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background: var(--bg-color-3);
+}

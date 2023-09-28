@@ -1,0 +1,79 @@
+.company-pages {
+    width: 73.7%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+    margin-top: 120px;
+}
+
+.company-title {
+    width: 620px;
+    height: 128px;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-title__btn {
+    width: 125px;
+    height: 48px;
+    border-radius: 4px;
+    background: var(--background-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.company-title__btn p {
+    color: var(--bg-color-2);
+    text-align: center;
+    font-family: "Roboto-regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.company-title h4 {
+    color: var(--color-2);
+    font-family: "Roboto-regular";
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 2.24px;
+    margin-bottom: 13px;
+}
+
+.company-images {
+    width: 100%;
+    height: 1917px;
+    display: flex;
+    gap: 40.9px;
+    flex-wrap: wrap;
+}
+
+.company-images__item {
+    width: 47.8%;
+    height: 613px;
+}
+
+.company-images__item p {
+    margin-top: 40px;
+    margin-left: 56px;
+    color: var(--color-2);
+    font-family: "Roboto-regular";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.96px;
+}
+
+.company-images__item img {
+    margin-top: 40px;
+    border-radius: 4px;
+    background: var(--bg-color-3);
+    margin-left: 25px;
+}
